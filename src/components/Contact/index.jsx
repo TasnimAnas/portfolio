@@ -7,6 +7,7 @@ const Contact = () => {
     name: "",
     email: "",
     message: "",
+    subject: "",
   });
 
   const handleChange = (e) => {
@@ -16,8 +17,8 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const { name, email, message } = formData;
-    const mailtoLink = `mailto:your-email@example.com?subject=Contact Form Submission&body=Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+    const { name, email, subject, message } = formData;
+    const mailtoLink = `mailto:tranas1818@gmail.com?subject=${subject}&body=${message}%0A%0ASender,%0A${name}%0AEmail: ${email}`;
     window.location.href = mailtoLink;
   };
 
@@ -67,6 +68,14 @@ const Contact = () => {
               id="email"
               placeholder="Your email"
               value={formData.email}
+              onChange={handleChange}
+            />
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              placeholder="Subject"
+              value={formData.subject}
               onChange={handleChange}
             />
             <textarea
