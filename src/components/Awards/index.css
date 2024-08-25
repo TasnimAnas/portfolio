@@ -1,0 +1,36 @@
+.awards-section {
+  padding: 60px 20px;
+  background-color: #1e1e1e;
+  color: #f4f4f9;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  color: #a1c9f1;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.awards-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.awards-list li {
+  font-size: 1.2rem;
+  color: #d0d0d5;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .section-heading {
+    font-size: 2rem;
+  }
+
+  .awards-list li {
+    font-size: 1rem;
+  }
+}

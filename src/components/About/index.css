@@ -1,0 +1,94 @@
+.about-section {
+  min-height: 94vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 0px;
+  background-color: #264653;
+  color: #e9c46a;
+  margin-top: -20px;
+  /* margin-bottom: -20px; */
+  background: url("../../assets/bg.png") no-repeat;
+  background-size: 70vh;
+  background-position: right bottom;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-section {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-section h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #e9c46a;
+}
+
+.text-section span {
+  font-size: 3.2rem;
+  color: #fff8f0;
+}
+
+.text-section p {
+  color: #e9c46a;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    background: none;
+    padding: 0;
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-section {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .text-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .text-section span {
+    font-size: 2rem;
+  }
+
+  .text-section p {
+    font-size: 0.9rem;
+  }
+
+  .profile-image {
+    max-width: 80%;
+  }
+
+  .text-section {
+    padding: 20px;
+  }
+}
