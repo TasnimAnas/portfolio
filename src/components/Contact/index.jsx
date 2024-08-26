@@ -5,7 +5,6 @@ import "./index.css";
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
     message: "",
     subject: "",
   });
@@ -17,8 +16,8 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const { name, email, subject, message } = formData;
-    const mailtoLink = `mailto:tranas1818@gmail.com?subject=${subject}&body=${message}%0A%0ASender,%0A${name}%0AEmail: ${email}`;
+    const { name, subject, message } = formData;
+    const mailtoLink = `mailto:tranas1818@gmail.com?subject=${subject}&body=${message}%0A%0ASender,%0A${name}`;
     window.location.href = mailtoLink;
   };
 
@@ -62,15 +61,6 @@ const Contact = () => {
               value={formData.name}
               onChange={handleChange}
               placeholder="Your name"
-            />
-            <input
-              required
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Your email"
-              value={formData.email}
-              onChange={handleChange}
             />
             <input
               required
