@@ -55,6 +55,7 @@ const Contact = () => {
           <h2>Let's Message me</h2>
           <form onSubmit={handleSubmit}>
             <input
+              required
               type="text"
               name="name"
               id="name"
@@ -63,6 +64,7 @@ const Contact = () => {
               placeholder="Your name"
             />
             <input
+              required
               type="email"
               name="email"
               id="email"
@@ -71,6 +73,7 @@ const Contact = () => {
               onChange={handleChange}
             />
             <input
+              required
               type="text"
               name="subject"
               id="subject"
@@ -79,6 +82,7 @@ const Contact = () => {
               onChange={handleChange}
             />
             <textarea
+              required
               name="message"
               id="message"
               cols="30"
