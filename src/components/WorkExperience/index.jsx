@@ -10,6 +10,7 @@ const workExperienceData = [
     endYear: "Present",
     duties: [
       "Developing and maintaining React components for Droip, a no-code WordPress website builder, contributing to new feature development and continuous enhancements",
+      "Building a new AI feature using Large Language Models, enabling automated website generation through fine-tuned LLM models and customized training processes tailored to user inputs within Droip.",
       "Responsible for Identifying and resolving bugs in the existing codebase, leading to improved UX and product stability",
       "Optimized React code, resulting in a 15% reduction in loading times and smoother user interactions, directly contributing to an increase in user satisfaction as reflected in product reviews.",
       "Technologies Used: JavaScript, React, Redux, PHP, Laravel, Git, WordPress, Plugin Development",
