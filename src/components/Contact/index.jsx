@@ -17,7 +17,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { name, subject, message } = formData;
-    const mailtoLink = `mailto:tranas1818@gmail.com?subject=${subject}&body=${message}%0A%0ASender,%0A${name}`;
+    const mailtoLink = `mailto:tur.anas2000@gmail.com?subject=${subject}&body=${message}%0A%0ASender,%0A${name}`;
     window.location.href = mailtoLink;
   };
 
@@ -44,7 +44,7 @@ const Contact = () => {
               </a>
             </li>
             <li>
-              <a href="mailto:tranas1818@gmail.com">
+              <a href="mailto:tur.anas2000@gmail.com">
                 <FaEnvelope />
               </a>
             </li>
