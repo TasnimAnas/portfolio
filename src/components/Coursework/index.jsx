@@ -18,6 +18,26 @@ const courseworkData = [
       "Skills in hyperparameter tuning, regularization techniques, and optimization strategies.",
   },
   {
+    name: "Machine Learning & Data Science A-Z: Hands-on Python 2024",
+    date: "September 2024",
+    provider: "Udemy",
+    outcome: "A-Z Machine learning theories and implementation using python",
+  },
+  {
+    name: "Advanced Cyber Security - Threats and Governance",
+    provider: "GreatLearning",
+    date: "September 2024",
+    outcome:
+      "Completed this course, covering threats, vulnerabilities, attacks, policy frameworks, and ISO27001 certification, in collaboration with Stanford Centre for Professional Development.",
+  },
+  {
+    date: "September 2024",
+    name: "Ethical Hacking - Mobile Platforms and Network Architecture",
+    provider: "GreatLearning",
+    outcome:
+      "The course is on Android OS, Ethical Hacking for Mobile Platforms, Network Security Tools, and Metasploit Framework with practical demonstrations and security market insights.",
+  },
+  {
     name: "Cyber Security",
     provider: "Oxford Home Study Centre",
     date: "June 2024",
