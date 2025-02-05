@@ -6,7 +6,7 @@ const ResearchPublications = () => {
     {
       title:
         "Privacy-Preserving Skin Disease Detection Using a One-Shot Federated Learning Approach",
-      authors: "T. U. R. Anas, S. Debnath, and V. Hassija",
+      authors: "T. U. R. Anas, Q. Razi, and V. Hassija",
       publication: "Manuscript in Review",
       supervisor: [
         "Dr. Vikas Hassija",
