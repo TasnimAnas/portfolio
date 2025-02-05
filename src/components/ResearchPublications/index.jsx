@@ -5,17 +5,24 @@ const ResearchPublications = () => {
   const publicationsData = [
     {
       title:
-        "Implementation of a One-Shot Federated Learning Framework for Privacy Preservation in Skin Disease Detection",
+        "Privacy-Preserving Skin Disease Detection Using a One-Shot Federated Learning Approach",
       authors: "T. U. R. Anas, S. Debnath, and V. Hassija",
-      publication: "In Review",
+      publication: "Manuscript in Review",
+      supervisor: [
+        "Dr. Vikas Hassija",
+        "https://scholar.google.com/citations?user=X45MXxsAAAAJ",
+      ],
     },
     {
       title:
         "Diseased Skin Dermis Approximation and Validation in Remote Space Using a Cognitive Network with Multiple Layers",
       authors:
         "S. Debnath, T. U. R. Anas, B. P. Singh, H. K. Tripathy, and A. H. Dheidan",
-      publication:
-        "International Conference on Computing Systems and Intelligent Applications (ComSIA 2024) | CEUR Workshop Proceedings [Scopus Indexed] | In Press",
+      publication: "CEUR Workshop Proceedings [Scopus Indexed] | In Press",
+      supervisor: [
+        "Dr. Sushruta Mishra",
+        "https://scholar.google.com/citations?user=m9kbIrsAAAAJ",
+      ],
     },
   ];
 
@@ -32,6 +39,16 @@ const ResearchPublications = () => {
               </p>
               <p>
                 <strong>Publication:</strong> {pub.publication}
+              </p>
+              <p>
+                <strong>{`Supervisor: `}</strong>
+                <a
+                  style={{ color: "white" }}
+                  href={pub.supervisor[1]}
+                  target="_blank"
+                >
+                  {pub.supervisor[0]}
+                </a>
               </p>
             </li>
           ))}

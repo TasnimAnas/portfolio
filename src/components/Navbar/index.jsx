@@ -24,6 +24,9 @@ const Navbar = () => {
             <a href="#education">Education</a>
           </li>
           <li>
+            <a href="#research-publications">Research</a>
+          </li>
+          <li>
             <a href="#skills">Skills</a>
           </li>
         </ul>
@@ -45,14 +48,14 @@ const Navbar = () => {
               <a href="#education">Education</a>
             </li>
             <li className="hideOnFull">
+              <a href="#research-publications">Research Publications</a>
+            </li>
+            <li className="hideOnFull">
               <a href="#skills">Skills</a>
             </li>
             <li>
               <a href="#projects">Projects</a>
             </li>
-            {/* <li>
-              <a href="#research-publications">Research Publications</a>
-            </li> */}
             <li>
               <a href="#coursework">Coursework</a>
             </li>

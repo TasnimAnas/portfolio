@@ -8,7 +8,7 @@ import Coursework from "./components/Coursework";
 import Education from "./components/Education";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
-// import ResearchPublications from "./components/ResearchPublications";
+import ResearchPublications from "./components/ResearchPublications";
 import Skills from "./components/Skills";
 import WorkExperience from "./components/WorkExperience";
 
@@ -25,15 +25,15 @@ function App() {
       <Element name="education">
         <Education />
       </Element>
+      <Element name="publications">
+        <ResearchPublications />
+      </Element>
       <Element name="skills">
         <Skills />
       </Element>
       <Element name="projects">
         <Projects />
       </Element>
-      {/* <Element name="publications">
-        <ResearchPublications />
-      </Element>*/}
       <Element name="coursework">
         <Coursework />
       </Element>
@@ -48,4 +48,3 @@ function App() {
 }
 
 export default App;
-
