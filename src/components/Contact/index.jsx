@@ -88,7 +88,7 @@ const Contact = () => {
       <hr />
       <div className="lastFoot">
         <FaCopyright />
-        {"2024 Tasnim Anas"}
+        {"2025 Tasnim Anas"}
       </div>
     </footer>
   );
