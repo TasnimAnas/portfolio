@@ -27,7 +27,7 @@ const ResearchPublications = () => {
   ];
 
   return (
-    <section id="publications" className="publications-section">
+    <section id="research-publications" className="publications-section">
       <div className="publications-container">
         <h2>Research Publications</h2>
         <ul className="publications-list">
