@@ -13,6 +13,15 @@ const educationData = [
     startYear: "September 2020",
     endYear: "May 2024",
     achievements: "Fully funded scholarship by the government of India.",
+    extraCurricular: [
+      {
+        title: "Host of The International Student Podcast | ",
+        link: "https://news.kiit.ac.in/ksac/ksac-organizes-international-student-podcast/",
+      },
+      {
+        title: "Event Manager at KIIT International Students Society",
+      },
+    ],
   },
   {
     institute: "Dr. Mahbubur Rahman Mollah College",
@@ -24,7 +33,14 @@ const educationData = [
       "Biology, Chemistry, English, Math, Physics, Information and Communication Technology (ICT).",
     startYear: "June 2017",
     endYear: "July 2019",
-    achievements: "Vice President of DMRC Debating club",
+    extraCurricular: [
+      {
+        title: "Vice President at DMRC Debating club",
+      },
+      {
+        title: "General Secratary at DMRC Science club",
+      },
+    ],
   },
 ];
 
@@ -67,10 +83,36 @@ const Education = () => {
             <strong>Duration:</strong> {educationData[activeIndex].startYear} -{" "}
             {educationData[activeIndex].endYear}
           </p>
-          <p>
-            <strong>Significant Achievements:</strong>{" "}
-            {educationData[activeIndex].achievements}
-          </p>
+          {educationData[activeIndex].achievements && (
+            <p>
+              <strong>Achievements:</strong>{" "}
+              {educationData[activeIndex].achievements}
+            </p>
+          )}
+
+          {educationData[activeIndex].extraCurricular && (
+            <p>
+              <strong>Others Activities:</strong>{" "}
+              <ol>
+                {educationData[activeIndex].extraCurricular.map((activity) => (
+                  <li style={{ marginLeft: "30px" }} key={activity.link}>
+                    {activity.title}
+                    {activity.link && (
+                      <a
+                        style={{
+                          textDecoration: "none",
+                        }}
+                        target="_blank"
+                        href={activity.link}
+                      >
+                        Link
+                      </a>
+                    )}
+                  </li>
+                ))}
+              </ol>
+            </p>
+          )}
         </div>
       </div>
     </section>
