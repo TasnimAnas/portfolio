@@ -28,7 +28,7 @@ const Contact = () => {
         <div class="contact">
           <h2>My Writings</h2>
           <p>
-            Read the blog of Tasnim Ur Rahaman Anas at:{" "}
+            Read the blog of Tasnim Anas at:{" "}
             <a href="https://blog.tasnimanas.com" target="_blank">
               https://blog.tasnimanas.com
             </a>
