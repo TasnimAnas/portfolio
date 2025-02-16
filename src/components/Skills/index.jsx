@@ -1,4 +1,3 @@
-import React from "react";
 import awsImg from "../../assets/aws.png";
 import bengaliImg from "../../assets/bengali.png";
 import cppImg from "../../assets/cpp.png";

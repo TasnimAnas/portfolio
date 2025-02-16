@@ -1,4 +1,3 @@
-import React from "react";
 import mediAssistPic from "../../assets/medi-assist.png";
 import noFapPic from "../../assets/no-fap.png";
 import pdfChatPic from "../../assets/pdf-chat.png";

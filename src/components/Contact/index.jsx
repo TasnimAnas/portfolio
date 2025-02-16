@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaCopyright } from "react-icons/fa";
 import "./index.css";
 
@@ -23,8 +23,8 @@ const Contact = () => {
 
   return (
     <footer id="contact" className="contact-footer">
-      <div class="footer">
-        <div class="contact">
+      <div className="footer">
+        <div className="contact">
           <h2>My Writings</h2>
           <p>
             Read the blog of Tasnim Anas at:{" "}
@@ -33,8 +33,8 @@ const Contact = () => {
             </a>
           </p>
         </div>
-        <div class="contactForm">
-          <h2>Let's Message me</h2>
+        <div className="contactForm">
+          <h2>{`Let's Message me`}</h2>
           <form onSubmit={handleSubmit}>
             <input
               required
@@ -64,7 +64,7 @@ const Contact = () => {
               value={formData.message}
               onChange={handleChange}
             ></textarea>
-            <input class="submitBtn" type="submit" value="Submit" />
+            <input className="submitBtn" type="submit" value="Submit" />
           </form>
         </div>
       </div>
