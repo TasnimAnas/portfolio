@@ -44,6 +44,20 @@
   line-height: 1.6;
 }
 
+.text-section a {
+  text-decoration: none;
+  color: white;
+}
+
+.text-section ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin-top: 50px;
+  color: #181818;
+  font-size: 1.8rem;
+}
+
 .image-section {
   flex: 1;
   display: flex;
@@ -70,6 +84,11 @@
   .text-section {
     padding-right: 0;
     margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .text-section ul {
+    justify-content: center;
   }
 
   .text-section h1 {

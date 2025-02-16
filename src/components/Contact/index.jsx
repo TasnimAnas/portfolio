@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { FaCopyright, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaCopyright } from "react-icons/fa";
 import "./index.css";
-import { FaGoogleScholar } from "react-icons/fa6";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -33,31 +32,6 @@ const Contact = () => {
               https://blog.tasnimanas.com
             </a>
           </p>
-          <ul>
-            <li>
-              <a href="https://www.linkedin.com/in/TasnimAnas" target="_blank">
-                <FaLinkedin />
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/TasnimAnas" target="_blank">
-                <FaGithub />
-              </a>
-            </li>
-            <li>
-              <a href="mailto:tur.anas2000@gmail.com">
-                <FaEnvelope />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://scholar.google.com/citations?user=UPwnJoMAAAAJ"
-                target="_blank"
-              >
-                <FaGoogleScholar />
-              </a>
-            </li>
-          </ul>
         </div>
         <div class="contactForm">
           <h2>Let's Message me</h2>
