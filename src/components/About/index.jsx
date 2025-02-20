@@ -1,8 +1,7 @@
 import profileImage from "../../assets/profile.png"; // Replace with your image path
 import "./index.css";
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 import { FaGoogleScholar } from "react-icons/fa6";
-import { SiMedium } from "react-icons/si";
 
 const About = () => {
   return (
@@ -38,7 +37,7 @@ const About = () => {
             </li>
             <li>
               <a href="https://blog.tasnimanas.com/" target="_blank">
-                <SiMedium />
+                <FaMedium />
               </a>
             </li>
             <li>
