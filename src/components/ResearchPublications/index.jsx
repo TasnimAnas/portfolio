@@ -8,7 +8,7 @@ const ResearchPublications = () => {
       authors:
         "S. Debnath, T. U. R. Anas, B. P. Singh, H. K. Tripathy, and A. H. Dheidan",
       publication:
-        "Proceedings of Fifth Doctoral Symposium on Computational Intelligence | Springer",
+        "Fifth Doctoral Symposium on Computational Intelligence 2024 [Scopus Indexed], Springer Nature",
       supervisor: [
         "Dr. Sushruta Mishra",
         "https://scholar.google.com/citations?user=m9kbIrsAAAAJ",
