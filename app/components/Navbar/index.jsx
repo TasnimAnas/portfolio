@@ -15,9 +15,15 @@ const Navbar = () => {
     setIsDropdownOpen(false);
   };
 
+  const reloadPage = () => {
+    window.location.reload();
+  };
+
   return (
     <nav className={styles.navbar}>
-      <div className={styles.logo}>Tasnim`s portfolio</div>
+      <div className={styles.logo} onClick={reloadPage}>
+        Tasnim`s portfolio
+      </div>
       <div
         className={`${styles["nav-items"]} ${
           isDropdownOpen ? styles.open : ""

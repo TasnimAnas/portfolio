@@ -13,6 +13,7 @@
 }
 
 .logo {
+  cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
   color: #a1c9f1;
