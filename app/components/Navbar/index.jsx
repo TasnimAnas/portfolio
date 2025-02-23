@@ -11,6 +11,10 @@ const Navbar = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
+  const closeDropDown = () => {
+    setIsDropdownOpen(false);
+  };
+
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>Tasnim`s portfolio</div>
@@ -20,19 +24,19 @@ const Navbar = () => {
         }`}
       >
         <ul className={styles["nav-links"]}>
-          <li>
+          <li onClick={closeDropDown}>
             <a href="#about">About</a>
           </li>
-          <li>
+          <li onClick={closeDropDown}>
             <a href="#work-experience">Work Experience</a>
           </li>
-          <li>
+          <li onClick={closeDropDown}>
             <a href="#education">Education</a>
           </li>
-          <li>
+          <li onClick={closeDropDown}>
             <a href="#research-publications">Research</a>
           </li>
-          <li>
+          <li onClick={closeDropDown}>
             <a href="#skills">Skills</a>
           </li>
         </ul>
@@ -51,31 +55,31 @@ const Navbar = () => {
               isDropdownOpen ? styles.show : ""
             }`}
           >
-            <li className={styles.hideOnFull}>
+            <li onClick={closeDropDown} className={styles.hideOnFull}>
               <a href="#about">About</a>
             </li>
-            <li className={styles.hideOnFull}>
+            <li onClick={closeDropDown} className={styles.hideOnFull}>
               <a href="#work-experience">Work Experience</a>
             </li>
-            <li className={styles.hideOnFull}>
+            <li onClick={closeDropDown} className={styles.hideOnFull}>
               <a href="#education">Education</a>
             </li>
-            <li className={styles.hideOnFull}>
+            <li onClick={closeDropDown} className={styles.hideOnFull}>
               <a href="#research-publications">Research Publications</a>
             </li>
-            <li className={styles.hideOnFull}>
+            <li onClick={closeDropDown} className={styles.hideOnFull}>
               <a href="#skills">Skills</a>
             </li>
-            <li>
+            <li onClick={closeDropDown}>
               <a href="#projects">Projects</a>
             </li>
-            <li>
+            <li onClick={closeDropDown}>
               <a href="#coursework">Coursework</a>
             </li>
             {/* <li>
               <a href="#awards">Awards</a>
             </li> */}
-            <li>
+            <li onClick={closeDropDown}>
               <a href="#contact">Contact</a>
             </li>
           </ul>
