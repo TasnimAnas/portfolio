@@ -13,7 +13,7 @@ const ResearchPublications = () => {
         "Dr. Sushruta Mishra",
         "https://scholar.google.com/citations?user=m9kbIrsAAAAJ",
       ],
-      link: "https://doi.org/10.1007/978-981-97-7178-3_47",
+      link: "https://link.springer.com/chapter/10.1007/978-981-97-7178-3_47",
     },
     {
       title:

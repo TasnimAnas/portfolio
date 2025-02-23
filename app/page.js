@@ -68,9 +68,9 @@ const jsonLD = {
         url: "https://link.springer.com/chapter/10.1007/978-981-97-7178-3_47",
         datePublished: "2025-02-19T00:00:00+00:00",
         sameAs: [
-          "https://link.springer.com/chapter/10.1007/978-981-97-7178-3_47",
           "https://doi.org/10.1007/978-981-97-7178-3_47",
           "https://www.researchgate.net/publication/389099013_Diseased_Skin_Dermis_Approximation_and_Validation_in_Remote_Space_Using_a_Cognitive_Network_with_Multiple_Hidden_Layers",
+          "https://link.springer.com/chapter/10.1007/978-981-97-7178-3_47",
         ],
         author: [
           {
