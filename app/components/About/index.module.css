@@ -67,7 +67,9 @@
 .profile-image {
   max-width: 100%;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
+  height: 380px;
+  width: 380px;
 }
 
 @media (max-width: 768px) {
@@ -109,5 +111,10 @@
 
   .text-section {
     padding: 20px;
+  }
+
+  .profile-image {
+    height: 280px;
+    width: 280px;
   }
 }
