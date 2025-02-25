@@ -1,26 +1,14 @@
 import Image from "next/image";
-import mediAssistPic from "../../assets/medi-assist.png";
-import noFapPic from "../../assets/no-fap.png";
-import pdfChatPic from "../../assets/pdf-chat.png";
-import travelAgencyPic from "../../assets/travel-agency.png";
+import mediAssistPic from "@/app/assets/medi-assist.png";
+import stopsmoke from "@/app/assets/stop_smoke.png";
+import pdfChatPic from "@/app/assets/pdf-chat.png";
+import apartmentPrice from "@/app/assets/apartment_price.png";
+import travelAgencyPic from "@/app/assets/travel-agency.png";
+import b2b from "@/app/assets/b2b.png";
 import styles from "./index.module.css";
 
 const Projects = () => {
   const projectsData = [
-    {
-      title: "AI-Powered PDF Chat Website",
-      description:
-        "Developed a single-page website for PDF interaction using LLMs and Langchain integration.",
-      image: pdfChatPic,
-      link: "https://react-pdf-reader.web.app/",
-    },
-    {
-      title: "Travel Agency Site",
-      description:
-        "A simple website for travel agency using HTML, CSS and JavaScript.",
-      image: travelAgencyPic,
-      link: "https://tasnimanas.github.io/travel-agency-site/",
-    },
     {
       title: "Medi Assist",
       description:
@@ -29,11 +17,39 @@ const Projects = () => {
       link: "https://github.com/TasnimAnas/medi-assist",
     },
     {
-      title: "No FAP - Quit Addiction",
+      title: "Apartment Price Raise (Inflation) Prediction",
+      description:
+        "An ML model, trained trained on apartment price in different locality of the city to predict price for any size of apartment in any locality.",
+      image: apartmentPrice,
+      link: "https://github.com/TasnimAnas/apartment-price-prediction",
+    },
+    {
+      title: "B2B Sales Prediction using ML",
+      description:
+        "Machine Learning model, trained on company invoice data to predict future order details for each customer.",
+      image: b2b,
+      link: "https://github.com/TasnimAnas/B2B-Sales-Dashboard-With-Prediction-System",
+    },
+    {
+      title: "AI-Powered PDF Chat Website",
+      description:
+        "Developed a single-page website for PDF interaction using LLMs and Langchain integration.",
+      image: pdfChatPic,
+      link: "https://react-pdf-reader.web.app/",
+    },
+    {
+      title: "Stop Smoke - Quit Addiction",
       description:
         "Android app for addiction management with Firebase Realtime Database chat feature.",
-      image: noFapPic,
-      link: "https://play.google.com/store/apps/details?id=com.TasnimAnas.NoFap&hl=en",
+      image: stopsmoke,
+      link: "https://play.google.com/store/apps/details?id=com.noobapps.stopsmoke",
+    },
+    {
+      title: "Travel Agency Site",
+      description:
+        "A simple website for travel agency using HTML, CSS and JavaScript.",
+      image: travelAgencyPic,
+      link: "https://tasnimanas.github.io/travel-agency-site/",
     },
   ];
 
