@@ -1,10 +1,10 @@
 import Image from "next/image";
-import mediAssistPic from "@/app/assets/medi-assist.png";
-import stopsmoke from "@/app/assets/stop_smoke.png";
-import pdfChatPic from "@/app/assets/pdf-chat.png";
-import apartmentPrice from "@/app/assets/apartment_price.png";
-import travelAgencyPic from "@/app/assets/travel-agency.png";
-import b2b from "@/app/assets/b2b.png";
+import mediAssistPic from "@/app/assets/medi-assist.webp";
+import stopsmoke from "@/app/assets/stop_smoke.webp";
+import pdfChatPic from "@/app/assets/pdf-chat.webp";
+import apartmentPrice from "@/app/assets/apartment_price.webp";
+import travelAgencyPic from "@/app/assets/travel-agency.webp";
+import b2b from "@/app/assets/b2b.webp";
 import styles from "./index.module.css";
 
 const Projects = () => {

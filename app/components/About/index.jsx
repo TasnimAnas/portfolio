@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profileImage from "../../assets/profile.png"; // Replace with your image path
+import profileImage from "../../assets/profile.webp"; // Replace with your image path
 import styles from "./index.module.css";
 import { FaEnvelope, FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 import { FaGoogleScholar } from "react-icons/fa6";
