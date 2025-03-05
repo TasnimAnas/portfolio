@@ -4,7 +4,7 @@ const ResearchPublications = () => {
   const publicationsData = [
     {
       title:
-        "Diseased Skin Dermis Approximation and Validation in Remote Space Using a Cognitive Network with Multiple Layers",
+        "Diseased Skin Dermis Approximation and Validation in Remote Space Using a Cognitive Network with Multiple Hidden Layers",
       authors:
         "S. Debnath, T. U. R. Anas, B. P. Singh, H. K. Tripathy, and A. H. Dheidan",
       publication:
