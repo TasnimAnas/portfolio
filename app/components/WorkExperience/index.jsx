@@ -8,11 +8,11 @@ const workExperienceData = [
     startYear: "July 2024",
     endYear: "Present",
     duties: [
-      "Developing and maintaining React components for Droip, a no-code WordPress website builder, contributing to new feature development and continuous enhancements",
-      "Building a new AI feature using Large Language Models, enabling automated website generation through fine-tuned LLM models and customized training processes tailored to user inputs within Droip.",
-      "Responsible for Identifying and resolving bugs in the existing codebase, leading to improved UX and product stability",
-      "Optimized React code, resulting in a 15% reduction in loading times and smoother user interactions, directly contributing to an increase in user satisfaction as reflected in product reviews.",
-      "Technologies Used: JavaScript, React, Redux, PHP, Laravel, Git, WordPress, Plugin Development",
+      "Developed an AI-powered automated website generation feature using fine-tuned Large Language Models (LLMs), tailored to user requirements.",
+      "Trained and fine-tuned LLMs to align with business logic and functional data, enabling custom AI-driven website creation within Droip, a no-code platform.",
+      "Diagnosed and resolved bugs in AI/ML model integration and front-end code, improving product stability and enhancing user experience (UX).",
+      "Optimized React-based UI, reducing loading times by 15% and ensuring smoother interactions, contributing to increased user satisfaction as seen in reviews.",
+      "Skills used: Python, Artificial Intelligence, LLM training and fine-tuning, React, Redux, Git, and WordPress.",
     ],
   },
   {
@@ -22,11 +22,11 @@ const workExperienceData = [
     startYear: "May 2023",
     endYear: "May 2024",
     duties: [
-      "Part of the team of 1000+ developers that launched AI-based finance-related software products used by over 850 companies.",
-      "Responsible for the daily operations and maintenance of the front end, utilizing React and Typescript to ensure the continuous improvement and error-free functionality of all company products.",
-      "Achieved a notable optimization in UI load times and overall performance, contributing to a 20% increase in efficiency through effective bug resolution and performance enhancement strategies.",
-      "Collaborated with the machine learning team to develop an AI-enabled B2B business management app, focusing on the sales forecasting feature that improved sales predictions and business decision-making processes.",
-      "Technologies used: Python, Machine Learning, Typescript, jQuery, React, Redux, Router, REST API, Jest, Selenium, and MySQL.",
+      "Contributed to the machine learning team in developing an AI-powered B2B business management app, focusing on sales forecasting to enhance sales predictions and business decision-making.",
+      "Played an important role in testing and deploying AI-driven finance software adopted by 850+ companies, improving financial management and decision-making.",
+      "Managed daily front-end operations and maintenance, leveraging React and TypeScript to ensure continuous improvement, stability, and error-free functionality across all company products.",
+      "Optimized UI performance, reducing load times and enhancing efficiency by 20% through bug resolution and performance optimization strategies.",
+      "Skills used: Python, Data Analytics, Machine Learning, Typescript, React, Redux, Jest, Selenium, and MySQL.",
     ],
   },
 ];
