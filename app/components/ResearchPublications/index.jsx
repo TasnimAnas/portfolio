@@ -15,6 +15,7 @@ const ResearchPublications = () => {
       ],
       link: "https://link.springer.com/chapter/10.1007/978-981-97-7178-3_47",
     },
+    /*
     {
       title:
         "Privacy-Preserving Skin Disease Detection Using One-Shot Federated Learning Approach",
@@ -26,6 +27,7 @@ const ResearchPublications = () => {
         "https://scholar.google.com/citations?user=X45MXxsAAAAJ",
       ],
     },
+    */
   ];
 
   return (
