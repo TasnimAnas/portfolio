@@ -28,8 +28,12 @@ const jsonLD = {
         "Tasnim Rahman Anas",
         "Tasnimur Anas",
       ],
-      award: "Study in India - SII Government Scholar",
-      knowsAbout: "Software Development, Machine Learning, Computer Vision",
+      award: [
+        "Invest Your Talent in Italy - IYT (Italian Government Scholarship) Winner",
+        "Study in India - SII (Government of India Scholarship) Winner",
+      ],
+      knowsAbout:
+        "Software Development, Machine Learning, Artificial Intelligence, Computer Vision",
       description:
         "Software Engineer and Researcher in the field of Artificial Intelligence, Machine Learning, and Computer Vision",
       sameAs: [
@@ -49,6 +53,11 @@ const jsonLD = {
         url: "https://www.ollyo.com",
       },
       alumniOf: [
+        {
+          "@type": "EducationalOrganization",
+          name: "University of Trento",
+          url: "https://www.unitn.it/en",
+        },
         {
           "@type": "EducationalOrganization",
           name: "Kalinga Institute of Industrial Technology",
