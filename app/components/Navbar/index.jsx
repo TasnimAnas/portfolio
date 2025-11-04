@@ -82,9 +82,9 @@ const Navbar = () => {
             <li onClick={closeDropDown}>
               <a href="#coursework">Coursework</a>
             </li>
-            {/* <li>
+            <li>
               <a href="#awards">Awards</a>
-            </li> */}
+            </li>
             <li onClick={closeDropDown}>
               <a href="#contact">Contact</a>
             </li>

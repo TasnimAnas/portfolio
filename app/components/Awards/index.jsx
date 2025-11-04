@@ -1,7 +1,8 @@
 import "./index.css";
 
 const awardsData = [
-  "SII Scholar - Fully funded Indian government scholarship for top performers in Ind-SAT test.",
+  "Awarded Invest Your Talent in Italy (IYT) Scholarship - Prestigious Italian Government scholarship supporting international students for master's studies in Italy.",
+  "Prestigious Study in India (SII) Scholar – Fully funded Indian Government scholarship for 4 years of bachelor’s study; awarded to top performers of the Ind-SAT test",
   "1st Runner up in GDSC Hackathon - Devsprint",
   "2nd Runner up in Hack for Climate Hackathon - Machine Learning",
   "National rank 1128 in ACM - ICPC India Prelims 2023",

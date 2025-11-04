@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Coursework from "./components/Coursework";
 import Contact from "./components/Contact";
+import Awards from "./components/Awards";
 
 const jsonLD = {
   "@context": "https://schema.org",
@@ -157,15 +158,13 @@ export default function Home() {
       <div className={styles.App}>
         <Navbar />
         <About />
-        <WorkExperience />
         <Education />
+        <WorkExperience />
         <ResearchPublications />
         <Skills />
         <Projects />
         <Coursework />
-        {/* 
         <Awards />
-       */}
         <Contact />
       </div>
     </>

@@ -4,9 +4,9 @@ const workExperienceData = [
   {
     company: "Ollyo",
     address: "Dhaka, Bangladesh",
-    jobTitle: "Jr. Software Engineer",
+    jobTitle: "Software Engineer",
     startYear: "July 2024",
-    endYear: "Present",
+    endYear: "August 2025",
     duties: [
       "Developed an AI-powered automated website generation feature using fine-tuned Large Language Models (LLMs), tailored to user requirements.",
       "Trained and fine-tuned LLMs to align with business logic and functional data, enabling custom AI-driven website creation within Droip, a no-code platform.",

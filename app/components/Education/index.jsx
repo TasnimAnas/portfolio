@@ -5,6 +5,18 @@ import styles from "./index.module.css";
 
 const educationData = [
   {
+    institute: "University of Trento",
+    degree: "Master of Science",
+    course: "Artificial Intelligence Systems",
+    address: "Trento, Italy",
+    result: "Currently pursuing",
+    coreSubjects:
+      "Fundamentals of AI, Machine Learning, Image Video and Audio Processing.",
+    startYear: "September 2025",
+    endYear: "Present",
+    achievements: "Fully funded scholarship by the government of Italy.",
+  },
+  {
     institute: "Kalinga Institute of Industrial Technology",
     degree: "Bachelor of Technology",
     course: "Computer Science and Engineering",
