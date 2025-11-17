@@ -60,6 +60,8 @@ export default function RootLayout({ children }) {
                     "https://www.facebook.com/tasnim.ur.rahaman.anas",
                     "https://blog.tasnimanas.com/",
                     "https://orcid.org/0009-0007-9391-8732",
+                    "https://apps.apple.com/us/developer/tasnim-ur-rahaman-anas/id1782167326",
+                    "https://play.google.com/store/apps/dev?id=6348998514861415043",
                     "https://tasnimanas.com"
                   ],
                   "award": [
