@@ -8,15 +8,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>Tasnim Ur Rahaman Anas — Software Engineer</title>
+        <title>Tasnim Anas — Software Engineer</title>
         <meta
           name="description"
-          content="Software Engineer and Researcher in the field of Artificial Intelligence, Machine Learning, and Computer Vision"
+          content="Tasnim Ur Rahaman Anas is a Software Engineer and a Researcher in the field of Artificial Intelligence, Machine Learning, and Computer Vision"
         />
         <meta property="og:title" content="Tasnim Anas — Software Engineer" />
         <meta
           property="og:description"
-          content="Explore the portfolio of Tasnim Anas, a skilled software engineer specializing in full stack development, front end, back end, and machine learning."
+          content="Explore the portfolio of Tasnim Ur Rahaman Anas, a skilled software engineer specializing in full stack development, front end, back end, and machine learning."
         />
         <meta property="og:url" content="https://tasnimanas.com/" />
         <meta
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         <meta name="twitter:title" content="Tasnim Anas — Software Engineer" />
         <meta
           name="twitter:description"
-          content="Explore the portfolio of Tasnim Anas, a skilled software engineer specializing in full stack development, front end, back end, and machine learning."
+          content="Explore the portfolio of Tasnim Ur Rahaman Anas, a skilled software engineer specializing in full stack development, front end, back end, and machine learning."
         />
         <meta
           name="twitter:image"
