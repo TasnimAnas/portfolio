@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>Tasnim Anas — Software Engineer</title>
+        <title>Tasnim Ur Rahaman Anas — Software Engineer</title>
         <meta
           name="description"
           content="Software Engineer and Researcher in the field of Artificial Intelligence, Machine Learning, and Computer Vision"
