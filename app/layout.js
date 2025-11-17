@@ -1,9 +1,6 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Tasnim Ur Rahaman Anas",
-  description:
-    "Portfolio website of software engineer Tasnim Ur Rahaman Anas who is a full stack, front end, back end, machine learning developer",
   keywords: "Tasnim, Anas, Software, Engineer, Machine, Learning",
 };
 
@@ -19,7 +16,7 @@ export default function RootLayout({ children }) {
         <meta property="og:title" content="Tasnim Anas — Software Engineer" />
         <meta
           property="og:description"
-          content="Explore the portfolio of Tasnim Ur Rahaman Anas, a skilled software engineer specializing in full stack development, front end, back end, and machine learning."
+          content="Explore the portfolio of Tasnim Anas, a skilled software engineer specializing in full stack development, front end, back end, and machine learning."
         />
         <meta property="og:url" content="https://tasnimanas.com/" />
         <meta
@@ -30,7 +27,7 @@ export default function RootLayout({ children }) {
         <meta name="twitter:title" content="Tasnim Anas — Software Engineer" />
         <meta
           name="twitter:description"
-          content="Explore the portfolio of Tasnim Ur Rahaman Anas, a skilled software engineer specializing in full stack development, front end, back end, and machine learning."
+          content="Explore the portfolio of Tasnim Anas, a skilled software engineer specializing in full stack development, front end, back end, and machine learning."
         />
         <meta
           name="twitter:image"
@@ -45,16 +42,11 @@ export default function RootLayout({ children }) {
               {
                   "@context": "https://schema.org",
                   "@type": "Person",
-                  "name": "Tasnim Ur Rahaman Anas",
+                  "name": "Tasnim Anas",
                   "alternateName": [
                     "Tasnim",
-                    "Tasnim Ur",
-                    "Tasnimur",
-                    "TasnimAnas",
-                    "Tasnimur Rahman",
-                    "Tasnimur Rahaman",
-                    "Tasnim Ur Rahaman",
-                    "Tasnim Ur Rahman"
+                    "Anas",
+                    "Tasnim Ur Rahaman Anas"
                   ],
                   "url": "https://tasnimanas.com",
                   "jobTitle": "Software Engineer",
