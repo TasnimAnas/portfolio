@@ -1,7 +1,14 @@
 import Image from "next/image";
 import profileImage from "../../assets/profile.webp"; // Replace with your image path
 import styles from "./index.module.css";
-import { FaEnvelope, FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaGithub,
+  FaLinkedin,
+  FaMedium,
+  FaInstagram,
+  FaFacebook,
+} from "react-icons/fa";
 import { FaGoogleScholar } from "react-icons/fa6";
 
 const About = () => {
@@ -39,6 +46,19 @@ const About = () => {
             <li>
               <a href="https://blog.tasnimanas.com/" target="_blank">
                 <FaMedium />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/tasnim__anas/" target="_blank">
+                <FaInstagram />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/tasnim.ur.rahaman.anas"
+                target="_blank"
+              >
+                <FaFacebook />
               </a>
             </li>
             <li>
