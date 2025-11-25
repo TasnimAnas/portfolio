@@ -63,23 +63,6 @@ export default function RootLayout({ children }) {
                     "https://apps.apple.com/us/developer/tasnim-ur-rahaman-anas/id1782167326",
                     "https://play.google.com/store/apps/dev?id=6348998514861415043",
                     "https://tasnimanas.com"
-                  ],
-                  "award": [
-                    "Invest Your Talent in Italy - IYT (Italian Government Scholarship) Winner",
-                    "Study in India - SII (Government of India Scholarship) Winner"
-                  ],
-                  "knowsAbout": "Software Development, Machine Learning, Artificial Intelligence, Computer Vision",
-                  "alumniOf": [
-                    {
-                      "@type": "EducationalOrganization",
-                      "name": "University of Trento",
-                      "url": "https://www.unitn.it/en"
-                    },
-                    {
-                      "@type": "EducationalOrganization",
-                      "name": "Kalinga Institute of Industrial Technology",
-                      "url": "https://kiit.ac.in"
-                    }
                   ]
                 }
             `}
