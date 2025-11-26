@@ -40,7 +40,11 @@ export default function RootLayout({ children }) {
         <script type="application/ld+json">
           {`
               {
-                  "@context": "https://schema.org",
+                "@context": "https://schema.org",
+                "@type": "ProfilePage",
+                "dateCreated": "2024-01-01T00:00:00Z",
+                "dateModified": "2024-01-01T00:00:00Z",
+                "mainEntity": {
                   "@type": "Person",
                   "name": "Tasnim Anas",
                   "alternateName": [
@@ -48,9 +52,55 @@ export default function RootLayout({ children }) {
                     "Anas",
                     "Tasnim Ur Rahaman Anas"
                   ],
-                  "url": "https://tasnimanas.com",
-                  "jobTitle": "Software Engineer",
                   "image": "https://avatars.githubusercontent.com/u/80065444?v=4",
+                  "description": "Software Engineer",
+                  "jobTitle": "Software Engineer",
+                  "worksFor": [
+                    {
+                      "@type": "Organization",
+                      "name": "Téchnéos",
+                      "url": "https://techneos.eu"
+                    },
+                    {
+                      "@type": "Organization",
+                      "name": "Ollyo",
+                      "url": "https://ollyo.com"
+                    },
+                    {
+                      "@type": "Organization",
+                      "name": "HighRadius",
+                      "url": "https://www.highradius.com"
+                    }
+                  ],
+                  "hasOccupation": [
+                    {
+                      "@type": "Occupation",
+                      "name": "Software & AI Engineer",
+                      "description": "Responsible for developing scalable AI software systems.",
+                      "occupationLocation": {
+                        "@type": "AdministrativeArea",
+                        "name": "Trento, Italy"
+                      }
+                    },
+                    {
+                      "@type": "Occupation",
+                      "name": "Software Engineer",
+                      "description": "Worked on developing no-code Wordpress website builder droip (https://droip.com).",
+                      "occupationLocation": {
+                        "@type": "AdministrativeArea",
+                        "name": "Dhaka, Bangladesh"
+                      }
+                    },
+                    {
+                      "@type": "Occupation",
+                      "name": "Software Engineer Intern",
+                      "description": "Developed AI-powered solutions for automating accounts receivable and credit management processes.",
+                      "occupationLocation": {
+                        "@type": "AdministrativeArea",
+                        "name": "Bhubaneswar, India"
+                      }
+                    }
+                  ],
                   "sameAs": [
                     "https://www.linkedin.com/in/TasnimAnas",
                     "https://twitter.com/ImTasnimAnas",
@@ -61,11 +111,51 @@ export default function RootLayout({ children }) {
                     "https://blog.tasnimanas.com/",
                     "https://orcid.org/0009-0007-9391-8732",
                     "https://apps.apple.com/us/developer/tasnim-ur-rahaman-anas/id1782167326",
-                    "https://play.google.com/store/apps/dev?id=6348998514861415043",
-                    "https://tasnimanas.com"
+                    "https://play.google.com/store/apps/dev?id=6348998514861415043"
+                  ],
+                  "award": [
+                    "Invest Your Talent in Italy - IYT (Italian Government Scholarship) Winner",
+                    "Study in India - SII (Government of India Scholarship) Winner"
+                  ],
+                  "knowsAbout": "Software Development, Machine Learning, Artificial Intelligence, Computer Vision",
+                  "alumniOf": [
+                    {
+                      "@type": "EducationalOrganization",
+                      "name": "University of Trento",
+                      "url": "https://www.unitn.it/en"
+                    },
+                    {
+                      "@type": "EducationalOrganization",
+                      "name": "Kalinga Institute of Industrial Technology",
+                      "url": "https://kiit.ac.in"
+                    }
+                  ],
+                  "subjectOf": [
+                    {
+                      "@id": "https://tasnimanas.com/#article"
+                    },
+                    {
+                      "@type": "NewsArticle",
+                      "headline": "KSAC Organizes International Student Podcast",
+                      "url": "https://news.kiit.ac.in/ksac/ksac-organizes-international-student-podcast/",
+                      "publisher": {
+                        "@type": "Organization",
+                        "name": "KIIT News and Events",
+                        "url": "https://news.kiit.ac.in/"
+                      },
+                      "image": "https://news.kiit.ac.in/wp-content/uploads/2022/03/KSACStudentPodcast5-750x430.jpg",
+                      "thumbnailUrl": "https://news.kiit.ac.in/wp-content/uploads/2022/03/KSACStudentPodcast5.jpg",
+                      "datePublished": "2022-03-02T04:23:00+00:00",
+                      "author": {
+                        "@type": "Organization",
+                        "name": "KIIT News and Events",
+                        "url": "https://news.kiit.ac.in/"
+                      }
+                    }
                   ]
                 }
-            `}
+              }         
+          `}
         </script>
       </head>
 
