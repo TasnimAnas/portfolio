@@ -22,6 +22,18 @@
   max-width: 1200px;
   margin: 0 auto;
   gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* First item spans full width */
+.work-experience-container>*:first-child {
+  flex: 1 1 100%;
+}
+
+/* Other items become two columns */
+.work-experience-container>*:not(:first-child) {
+  flex: 1 1 calc(50% - 40px);
+  /* subtract gap */
 }
 
 .experience {
@@ -30,6 +42,7 @@
   background-color: #264653;
   border-radius: 10px;
   margin: 0 10px;
+  min-width: 401px;
 }
 
 .experience h2 {
@@ -75,5 +88,6 @@
 
   .experience {
     margin: 10px 0;
+    min-width: unset;
   }
 }

@@ -16,8 +16,8 @@ export default function Home() {
       <div className={styles.App}>
         <Navbar />
         <About />
-        <Education />
         <WorkExperience />
+        <Education />
         <ResearchPublications />
         <Skills />
         <Projects />

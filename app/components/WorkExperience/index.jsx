@@ -2,6 +2,19 @@ import styles from "./index.module.css";
 
 const workExperienceData = [
   {
+    company: "Téchnéos",
+    address: "Trento, Italy",
+    jobTitle: "Software & AI Engineer",
+    startYear: "December 2025",
+    endYear: "Present",
+    duties: [
+      "Joined as a Software & AI Engineer to spearhead the development of scalable AI software systems, focusing on cutting-edge technologies in artificial intelligence and machine learning.",
+      "Developing SAAS-based AI solutions to enhance manufacturing processes and drive innovation across various industries.",
+      "Collaborating with cross-functional teams to design, implement, and deploy AI-driven applications that meet client needs and industry standards.",
+      "Skills used: TypeScript, NextJS, Python, Machine Learning, Artificial Intelligence, Postgres Docker, and Kubernetes.",
+    ],
+  },
+  {
     company: "Ollyo",
     address: "Dhaka, Bangladesh",
     jobTitle: "Software Engineer",
