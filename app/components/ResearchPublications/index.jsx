@@ -4,9 +4,21 @@ const ResearchPublications = () => {
   const publicationsData = [
     {
       title:
+        "Privacy-Preserving Skin Disease Detection Using One-Shot Federated Learning Approach",
+      authors:
+        "Tasnim Ur Rahaman Anas, Qaiser Razi, Sparsh Bajoria, Vikas Hassija & GSS Chalapathi",
+      publication: "Cognitive Computation",
+      supervisor: [
+        "Dr. Vikas Hassija",
+        "https://scholar.google.co.uk/citations?user=X45MXxsAAAAJ",
+      ],
+      link: "https://link.springer.com/article/10.1007/s12559-025-10531-0",
+    },
+    {
+      title:
         "Diseased Skin Dermis Approximation and Validation in Remote Space Using a Cognitive Network with Multiple Hidden Layers",
       authors:
-        "S. Debnath, T. U. R. Anas, B. P. Singh, H. K. Tripathy, and A. H. Dheidan",
+        "Shruti Debnath, Tasnim Ur Rahaman Anas, Bhanu Pratap Singh, Hrudaya Kumar Tripathy & Ali Hasan Dheidan ",
       publication:
         "Fifth Doctoral Symposium on Computational Intelligence 2024 [Scopus Indexed], Springer Nature",
       supervisor: [
@@ -15,19 +27,6 @@ const ResearchPublications = () => {
       ],
       link: "https://link.springer.com/chapter/10.1007/978-981-97-7178-3_47",
     },
-    /*
-    {
-      title:
-        "Privacy-Preserving Skin Disease Detection Using One-Shot Federated Learning Approach",
-      authors:
-        "T. U. R. Anas, Q. Razi, and V. Hassija, A Pandey, and GSS Chalapathi",
-      publication: "Manuscript in Review",
-      supervisor: [
-        "Dr. Vikas Hassija",
-        "https://scholar.google.com/citations?user=X45MXxsAAAAJ",
-      ],
-    },
-    */
   ];
 
   return (
