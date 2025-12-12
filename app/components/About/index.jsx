@@ -9,7 +9,7 @@ import {
   FaInstagram,
   FaFacebook,
 } from "react-icons/fa";
-import { FaGoogleScholar } from "react-icons/fa6";
+import { FaGoogleScholar, FaSquareXTwitter } from "react-icons/fa6";
 
 const About = () => {
   return (
@@ -59,6 +59,11 @@ const About = () => {
                 target="_blank"
               >
                 <FaFacebook />
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/ImTasnimAnas" target="_blank">
+                <FaSquareXTwitter />
               </a>
             </li>
             <li>

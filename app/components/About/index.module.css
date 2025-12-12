@@ -91,6 +91,8 @@
 
   .text-section ul {
     justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
   }
 
   .text-section h1 {
