@@ -109,7 +109,7 @@ export default function RootLayout({ children }) {
       {
         "@type": "Person",
         "@id": "https://tasnimanas.com/#person",
-        name: "Tasnim Anas",
+        name: "Tasnim Ur Rahaman Anas",
       },
       { "@type": "Person", name: "Qaiser Razi" },
     ],
@@ -129,7 +129,7 @@ export default function RootLayout({ children }) {
       {
         "@type": "Person",
         "@id": "https://tasnimanas.com/#person",
-        name: "Tasnim Anas",
+        name: "Tasnim Ur Rahaman Anas",
       },
       { "@type": "Person", name: "S. Debnath" },
     ],
