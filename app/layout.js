@@ -206,7 +206,7 @@ export default function RootLayout({ children }) {
         <meta name="twitter:creator" content="@ImTasnimAnas" />
         <meta
           name="twitter:description"
-          content="Explore the portfolio of Tasnim Ur Rahaman Anas, a skilled software engineer and research author specializing in full stack development, front end, back end, and machine learning."
+          content="Explore the portfolio of Tasnim Ur Rahaman Anas, a skilled software engineer and research author specializing in full stack development, back end, and machine learning."
         />
         <meta
           name="twitter:image"
