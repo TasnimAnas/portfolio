@@ -1,21 +1,44 @@
 import "./globals.css";
 
 export const metadata = {
-  keywords: "Tasnim, Anas, Software, Engineer, Machine, Learning",
+  title: "Tasnim Anas - Software Engineer",
+  description:
+    "Software and AI Engineer specializing in Machine Learning, Federated Learning, and Full-stack Development.",
+  keywords: [
+    "Tasnim",
+    "Anas",
+    "Software Engineer",
+    "Machine Learning",
+    "Trento",
+  ],
+  openGraph: {
+    title: "Tasnim Anas - Software Engineer",
+    description: "Explore the portfolio of Tasnim Ur Rahaman Anas.",
+    url: "https://tasnimanas.com/",
+    siteName: "Tasnim Anas Portfolio",
+    images: [
+      {
+        url: "https://raw.githubusercontent.com/TasnimAnas/TasnimAnas/refs/heads/main/image.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
   const personSchema = {
     "@context": "https://schema.org",
     "@type": "Person",
-    "@id": "https://tasnimanas.com/#person",
-    name: "Tasnim Anas",
-    alternateName: ["Tasnim Ur Rahaman Anas", "Tasnim", "Anas"],
+    name: "Tasnim Ur Rahaman Anas",
+    alternateName: ["Tasnim Anas", "Tasnim", "Anas"],
     url: "https://tasnimanas.com/",
     image:
       "https://raw.githubusercontent.com/TasnimAnas/TasnimAnas/refs/heads/main/image.png",
     description:
-      "Software and AI Engineer with research contributions in machine learning and computer vision.",
+      "Software and AI Engineer specializing in Machine Learning, Federated Learning, and Full-stack Development. Currently researching Privacy-Preserving AI at the University of Trento.",
     jobTitle: "Software & AI Engineer",
     nationality: {
       "@type": "Country",
@@ -31,18 +54,26 @@ export default function RootLayout({ children }) {
     },
     alumniOf: [
       {
-        "@type": "EducationalOrganization",
+        "@type": "CollegeOrUniversity",
         name: "University of Trento",
-        url: "https://www.unitn.it/en",
+        url: "https://www.unitn.it/en/",
+        location: {
+          "@type": "Place",
+          address: "Trento, Italy",
+        },
       },
       {
-        "@type": "EducationalOrganization",
-        name: "Kalinga Institute of Industrial Technology",
-        url: "https://kiit.ac.in",
+        "@type": "CollegeOrUniversity",
+        name: "KIIT University",
+        url: "https://kiit.ac.in/",
+        location: {
+          "@type": "Place",
+          address: "Bhubaneswar, India",
+        },
       },
     ],
     affiliation: [
-      { "@type": "Organization", name: "Téchnéos", url: "https://techneos.eu" },
+      { "@type": "Organization", name: "Techneos", url: "https://techneos.eu" },
       { "@type": "Organization", name: "Ollyo", url: "https://ollyo.com" },
       {
         "@type": "Organization",
@@ -53,12 +84,14 @@ export default function RootLayout({ children }) {
     knowsAbout: [
       "Artificial Intelligence",
       "Machine Learning",
-      "Computer Vision",
+      "Federated Learning",
       "Software Engineering",
+      "Full-stack Development",
+      "Privacy-Preserving AI",
     ],
     award: [
-      "Invest Your Talent in Italy (IYT) – Italian Government Scholarship",
-      "Study in India (SII) – Government of India Scholarship",
+      "Invest Your Talent in Italy (IYT) - Italian Government Scholarship",
+      "Study in India (SII) - Government of India Scholarship",
     ],
     identifier: [
       {
@@ -70,6 +103,8 @@ export default function RootLayout({ children }) {
     ],
     sameAs: [
       "https://www.linkedin.com/in/TasnimAnas",
+      "https://x.com/ImTasnimAnas",
+      "https://twitter.com/ImTasnimAnas",
       "https://github.com/TasnimAnas",
       "https://scholar.google.com/citations?user=UPwnJoMAAAAJ",
       "https://orcid.org/0009-0007-9391-8732",
@@ -80,76 +115,82 @@ export default function RootLayout({ children }) {
     ],
   };
 
-  const websiteSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": "https://tasnimanas.com/#website",
-    url: "https://tasnimanas.com/",
-    name: "Tasnim Anas",
-    publisher: { "@type": "Person", "@id": "https://tasnimanas.com/#person" },
-  };
-
-  const webpageSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "@id": "https://tasnimanas.com/#webpage",
-    url: "https://tasnimanas.com/",
-    name: "Tasnim Anas — Software & AI Engineer",
-    about: { "@type": "Person", "@id": "https://tasnimanas.com/#person" },
-  };
-
-  const article1Schema = {
+  const researchSchema = {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "@id": "https://doi.org/10.1007/s12559-025-10531-0",
     headline:
       "Privacy-Preserving Skin Disease Detection Using One-Shot Federated Learning Approach",
-    datePublished: "2025-12-11T08:00:00+01:00",
+    name: "Privacy-Preserving Skin Disease Detection Using One-Shot Federated Learning Approach",
     author: [
       {
         "@type": "Person",
-        "@id": "https://tasnimanas.com/#person",
         name: "Tasnim Ur Rahaman Anas",
+        url: "https://tasnimanas.com/",
       },
-      { "@type": "Person", name: "Qaiser Razi" },
+      {
+        "@type": "Person",
+        name: "Qaiser Razi",
+      },
+      {
+        "@type": "Person",
+        name: "Sparsh Bajoria",
+      },
     ],
-    publisher: { "@type": "Organization", name: "Springer" },
-    isPartOf: { "@type": "Periodical", name: "Cognitive Computation" },
-    sameAs: "https://doi.org/10.1007/s12559-025-10531-0",
+    datePublished: "2025-12-11",
+    description:
+      "A research article exploring FedD3, a framework combining federated learning with dataset distillation for privacy-preserving medical diagnostics.",
+    publisher: {
+      "@type": "Organization",
+      name: "Springer Nature",
+      alternateName: "Cognitive Computation",
+    },
+    identifier: "doi:10.1007/s12559-025-10531-0",
+    url: "https://link.springer.com/article/10.1007/s12559-025-10531-0",
+    about: [
+      { "@type": "Thing", name: "Federated Learning" },
+      { "@type": "Thing", name: "Artificial Intelligence" },
+      { "@type": "Thing", name: "Skin Disease Detection" },
+    ],
   };
 
-  const article2Schema = {
+  const researchSchema2 = {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "@id": "https://doi.org/10.1007/978-981-97-7178-3_47",
     headline:
       "Diseased Skin Dermis Approximation and Validation in Remote Space Using a Cognitive Network with Multiple Hidden Layers",
-    datePublished: "2025-02-19T08:00:00+01:00",
+    name: "Diseased Skin Dermis Approximation and Validation in Remote Space Using a Cognitive Network with Multiple Hidden Layers",
     author: [
       {
         "@type": "Person",
-        "@id": "https://tasnimanas.com/#person",
         name: "Tasnim Ur Rahaman Anas",
+        url: "https://tasnimanas.com/",
       },
-      { "@type": "Person", name: "S. Debnath" },
     ],
-    publisher: { "@type": "Organization", name: "Springer" },
-    isPartOf: {
-      "@type": "Book",
-      name: "Proceedings of Fifth Doctoral Symposium on Computational Intelligence (DoSCI 2023)",
+    datePublished: "2025-02-19",
+    description:
+      "A research article on a cognitive network model for approximating and validating diseased skin dermis in remote environments.",
+    publisher: {
+      "@type": "Organization",
+      name: "Springer Nature",
     },
-    sameAs: "https://doi.org/10.1007/978-981-97-7178-3_47",
+    identifier: "doi:10.1007/978-981-97-7178-3_47",
+    url: "https://link.springer.com/chapter/10.1007/978-981-97-7178-3_47",
+    about: [
+      { "@type": "Thing", name: "Deep Learning" },
+      { "@type": "Thing", name: "Artificial Intelligence" },
+      { "@type": "Thing", name: "Skin Disease Detection" },
+    ],
   };
 
   return (
     <html lang="en">
       <head>
-        <title>Tasnim Anas — Software Engineer</title>
+        <title>Tasnim Anas - Software Engineer</title>
         <meta
           name="description"
           content="Tasnim Ur Rahaman Anas is a Software Engineer and a Research author in the field of Artificial Intelligence, Machine Learning, and Computer Vision"
         />
-        <meta property="og:title" content="Tasnim Anas — Software Engineer" />
+        <meta property="og:title" content="Tasnim Anas - Software Engineer" />
         <meta
           property="og:description"
           content="Explore the portfolio of Tasnim Ur Rahaman Anas, a skilled software engineer and research author specializing in full stack development, front end, back end, and machine learning."
@@ -173,7 +214,6 @@ export default function RootLayout({ children }) {
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://tasnimanas.com" />
-
         {/* JSON-LD Structured Data */}
         <script
           type="application/ld+json"
@@ -181,19 +221,11 @@ export default function RootLayout({ children }) {
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(researchSchema) }}
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(webpageSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(article1Schema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(article2Schema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(researchSchema2) }}
         />
       </head>
 
