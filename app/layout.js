@@ -4,13 +4,7 @@ export const metadata = {
   title: "Tasnim Anas - Software Engineer",
   description:
     "Software and AI Engineer specializing in Machine Learning, Federated Learning, and Full-stack Development.",
-  keywords: [
-    "Tasnim",
-    "Anas",
-    "Software Engineer",
-    "Machine Learning",
-    "Trento",
-  ],
+  keywords: ["Tasnim", "Anas", "Software Engineer", "Machine Learning"],
   openGraph: {
     title: "Tasnim Anas - Software Engineer",
     description: "Explore the portfolio of Tasnim Ur Rahaman Anas.",
@@ -33,7 +27,7 @@ export default function RootLayout({ children }) {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Tasnim Ur Rahaman Anas",
-    alternateName: ["Tasnim Anas", "Tasnim", "Anas"],
+    alternateName: ["Tasnim Anas", "Tasnim", "Anas", "Tasnimur", "Rahman"],
     url: "https://tasnimanas.com/",
     image:
       "https://raw.githubusercontent.com/TasnimAnas/TasnimAnas/refs/heads/main/image.png",
