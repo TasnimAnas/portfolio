@@ -81,33 +81,6 @@ const About = () => {
           />
         </div>
       </div>
-      <div
-        style={{
-          position: "fixed",
-          right: 0,
-          bottom: 0,
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          gap: "8px",
-          backgroundColor: "black",
-          padding: "12px",
-          borderTopLeftRadius: "16px",
-          boxShadow: "0 0 6px rgba(220, 220, 220, 0.1)",
-          color: "white",
-          fontSize: "12px",
-          zIndex: 1000,
-        }}
-        className={styles["scale-down"]}
-      >
-        <p>Checkout Product</p>
-        <div
-          dangerouslySetInnerHTML={{
-            __html:
-              '<a href="https://www.producthunt.com/products/no-fap?embed=true&amp;utm_source=badge-top-post-badge&amp;utm_medium=badge&amp;utm_campaign=badge-no-fap" target="_blank" rel="noopener noreferrer"><img alt="No Fap - Quit masturbation addiction | Product Hunt" width="140" height="30" src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=310930&amp;theme=light&amp;period=daily&amp;t=1767635350765"></a>',
-          }}
-        ></div>
-      </div>
     </section>
   );
 };
