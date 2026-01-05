@@ -119,4 +119,10 @@
     height: 280px;
     width: 280px;
   }
+
+  .scale-down {
+    visibility: hidden;
+  }
+
+
 }
