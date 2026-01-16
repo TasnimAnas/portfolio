@@ -76,7 +76,7 @@ const Contact = () => {
       </div>
       <div className={styles["lastFoot"]}>
         <FaCopyright />
-        {"2025 Tasnim Anas"}
+        {`${new Date().getFullYear()} Tasnim Anas`}
       </div>
     </footer>
   );
