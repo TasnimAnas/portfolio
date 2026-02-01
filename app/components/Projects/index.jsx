@@ -5,6 +5,7 @@ import pdfChatPic from "@/app/assets/pdf-chat.webp";
 import apartmentPrice from "@/app/assets/apartment_price.webp";
 import travelAgencyPic from "@/app/assets/travel-agency.webp";
 import b2b from "@/app/assets/b2b.webp";
+import destmate from "@/app/assets/destmate.webp";
 import styles from "./index.module.css";
 
 const Projects = () => {
@@ -50,6 +51,12 @@ const Projects = () => {
         "A simple website for travel agency using HTML, CSS and JavaScript.",
       image: travelAgencyPic,
       link: "https://tasnimanas.github.io/travel-agency-site/",
+    },
+    {
+      title: "DestMate: Travel Alarm",
+      description: "Alarm with location wake-up and earphone-only sound",
+      image: destmate,
+      link: "https://destmate.com/",
     },
   ];
 
