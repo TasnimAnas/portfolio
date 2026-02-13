@@ -1,15 +1,15 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Tasnim Anas - Software Engineer",
+  title: "Tasnim Ur Rahaman Anas - Software Engineer",
   description:
     "Software and AI Engineer specializing in Machine Learning, Federated Learning, and Full-stack Development.",
   keywords: ["Tasnim", "Anas", "Software Engineer", "Machine Learning"],
   openGraph: {
-    title: "Tasnim Anas - Software Engineer",
+    title: "Tasnim Ur Rahaman Anas - Software Engineer",
     description: "Explore the portfolio of Tasnim Ur Rahaman Anas.",
     url: "https://tasnimanas.com/",
-    siteName: "Tasnim Anas Portfolio",
+    siteName: "Tasnim Ur Rahaman Anas Portfolio",
     images: [
       {
         url: "https://raw.githubusercontent.com/TasnimAnas/TasnimAnas/refs/heads/main/image.png",
@@ -179,12 +179,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>Tasnim Anas - Software Engineer</title>
+        <title>Tasnim Ur Rahaman Anas - Software Engineer</title>
         <meta
           name="description"
           content="Tasnim Ur Rahaman Anas is a Software Engineer and a Research author in the field of Artificial Intelligence, Machine Learning, and Computer Vision"
         />
-        <meta property="og:title" content="Tasnim Anas - Software Engineer" />
+        <meta
+          property="og:title"
+          content="Tasnim Ur Rahaman Anas - Software Engineer"
+        />
         <meta
           property="og:description"
           content="Explore the portfolio of Tasnim Ur Rahaman Anas, a skilled software engineer and research author specializing in full stack development, front end, back end, and machine learning."
@@ -195,7 +198,10 @@ export default function RootLayout({ children }) {
           content="https://raw.githubusercontent.com/TasnimAnas/TasnimAnas/refs/heads/main/image.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Tasnim Anas — Software Engineer" />
+        <meta
+          name="twitter:title"
+          content="Tasnim Ur Rahaman Anas — Software Engineer"
+        />
         <meta name="twitter:site" content="@ImTasnimAnas" />
         <meta name="twitter:creator" content="@ImTasnimAnas" />
         <meta
