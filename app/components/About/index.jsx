@@ -6,7 +6,6 @@ import {
   FaGithub,
   FaLinkedin,
   FaMedium,
-  FaInstagram,
   FaFacebook,
 } from "react-icons/fa";
 import { FaGoogleScholar, FaSquareXTwitter } from "react-icons/fa6";
@@ -46,11 +45,6 @@ const About = () => {
             <li>
               <a href="https://blog.tasnimanas.com/" target="_blank">
                 <FaMedium />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/tasnim__anas/" target="_blank">
-                <FaInstagram />
               </a>
             </li>
             <li>

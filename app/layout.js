@@ -105,7 +105,6 @@ export default function RootLayout({ children }) {
       "https://stackoverflow.com/users/15813678/tasnimanas",
       "https://blog.tasnimanas.com/",
       "https://www.facebook.com/tasnim.ur.rahaman.anas",
-      "https://www.instagram.com/tasnim__anas",
     ],
   };
 
