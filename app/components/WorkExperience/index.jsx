@@ -2,16 +2,17 @@ import styles from "./index.module.css";
 
 const workExperienceData = [
   {
-    company: "Téchnéos",
+    company: "Techneos",
     address: "Trento, Italy",
     jobTitle: "Software & AI Engineer",
     startYear: "December 2025",
     endYear: "Present",
     duties: [
-      "Joined as a Software & AI Engineer to spearhead the development of scalable AI software systems, focusing on cutting-edge technologies in artificial intelligence and machine learning.",
-      "Developing SAAS-based AI solutions to enhance manufacturing processes and drive innovation across various industries.",
-      "Collaborating with cross-functional teams to design, implement, and deploy AI-driven applications that meet client needs and industry standards.",
-      "Skills used: TypeScript, NextJS, Python, Machine Learning, Artificial Intelligence, Postgres Docker, and Kubernetes.",
+      "Leading the development of a cloud-native SaaS Manufacturing Operations Management (MOM) platform for SMEs, enabling Lean Manufacturing with real-time planning, tracking, and KPI monitoring across 10+ operational metrics",
+      "Leading full-stack development of the core platform, building a Web Planning Console using Next.js (Gantt-based scheduling, task management) and Python FastAPI, deployed as a Dockerized cloud SaaS solution",
+      "Implementing real-time data pipelines for operational visibility and performance analytics (KPIs, OEE), tracking time-stamped events across planning, production, and logistics workflows",
+      "Integrating time-series ML models for automated production scheduling, continuously improving backlog prioritization and increasing resource utilization by 25% across multiple work centers",
+      "Skills used: TypeScript, React, Next.js, Python, Machine Learning, PostgreSQL, FastAPI, Docker, Cloud SaaS",
     ],
   },
   {
