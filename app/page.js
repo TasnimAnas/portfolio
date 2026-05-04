@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import Coursework from "./components/Coursework";
 import Contact from "./components/Contact";
 import Awards from "./components/Awards";
+import CountriesVisited from "./components/CountriesVisited";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Projects />
         <Coursework />
         <Awards />
+        <CountriesVisited />
         <Contact />
       </div>
     </>

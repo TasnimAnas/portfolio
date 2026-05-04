@@ -23,7 +23,7 @@ const workExperienceData = [
     endYear: "August 2025",
     duties: [
       "Developed an AI-powered automated website generation feature using fine-tuned Large Language Models (LLMs), tailored to user requirements.",
-      "Trained and fine-tuned LLMs to align with business logic and functional data, enabling custom AI-driven website creation within Droip, a no-code platform.",
+      "Trained and fine-tuned LLMs to align with business logic and functional data, enabling custom AI-driven website creation within Kirki, a no-code platform.",
       "Diagnosed and resolved bugs in AI/ML model integration and front-end code, improving product stability and enhancing user experience (UX).",
       "Optimized React-based UI, reducing loading times by 15% and ensuring smoother interactions, contributing to increased user satisfaction as seen in reviews.",
       "Skills used: Python, Artificial Intelligence, LLM training and fine-tuning, React, Redux, Git, and WordPress.",

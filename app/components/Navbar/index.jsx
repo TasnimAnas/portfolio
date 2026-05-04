@@ -45,6 +45,9 @@ const Navbar = () => {
           <li onClick={closeDropDown}>
             <a href="#skills">Skills</a>
           </li>
+          <li onClick={closeDropDown}>
+            <a href="#countries-visited">Travel</a>
+          </li>
         </ul>
         <div className={styles.dropdown}>
           <button
@@ -84,6 +87,9 @@ const Navbar = () => {
             </li>
             <li>
               <a href="#awards">Awards</a>
+            </li>
+            <li onClick={closeDropDown}>
+              <a href="#countries-visited">Countries Visited</a>
             </li>
             <li onClick={closeDropDown}>
               <a href="#contact">Contact</a>
